@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import Header from './components/Header'
+import Search from './components/Search';
 import './App.css';
+import { Container } from '@mui/material';
+import { goods } from './data/goods';
+import GoodsList from './components/GoodsList';
+import React from 'react';
 
-function App() {
+
+const App = () => {
+  const [order, setOrder] = React.useState([]);
+  const [search, setSearch] = React.useState('');
+  const [products, setProducts] = React.useState(goods);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header/>
+    <Container
+      sx={{mt: '1rem'}}
+    >
+      <Search/>
+      <GoodsList
+        goods={products}
+      />
+    </Container>
+        
+     
+    </>
   );
 }
 
