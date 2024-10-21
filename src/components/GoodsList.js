@@ -6,7 +6,7 @@ const GoodsList = (props) => {
     const { goods, setOrder } = props;
 
     return (
-        <Grid2 container>
+        <Grid2 container spacing={2}>
              {goods.map((item) => (
                     <GoodsItem key={item.id} setOrder={setOrder} {...item} />
                 ))}

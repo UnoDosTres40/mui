@@ -1,3 +1,4 @@
+
 export const goods = [
     {
         id: 'js01',
@@ -45,7 +46,7 @@ export const goods = [
         id: 'video02',
         category: 'video',
         name: 'Анимации в JavaScript',
-        poster: "https://www.google.ru/url?sa=i&url=https%3A%2F%2Fdictionary.cambridge.org%2Fru%2F%25D1%2581%25D0%25BB%25D0%25BE%25D0%25B2%25D0%25B0%25D1%2580%25D1%258C%2F%25D0%25B0%25D0%25BD%25D0%25B3%25D0%25BB%25D0%25B8%25D0%25B9%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9%2Fbook&psig=AOvVaw3ew8RyHxChyA3LSvN9W5CD&ust=1729545851472000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLi85MTynYkDFQAAAAAdAAAAABAE",
+        poster: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
         price: 1550,
     },
     {
@@ -66,14 +67,14 @@ export const goods = [
         id: 'sticker01',
         category: 'stickers',
         name: 'Набор наклеек Frontend',
-        poster: "https://images.unsplash.com/photo-1572375992501-4b0892d50c69?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80",
+        poster: "https://images.unsplash.com/photo-1593754500338-969a679d5ca3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
         price: 550,
     },
     {
         id: 'sticker02',
         category: 'stickers',
         name: 'Набор наклеек Backend',
-        poster: "https://images.unsplash.com/photo-1496493820873-82288ac48a48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
+        poster: "https://images.unsplash.com/photo-1593754500338-969a679d5ca3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
         price: 550,
     },
     {
